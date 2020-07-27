@@ -1,5 +1,5 @@
 const config = {
-  apiKey: '',
+  apiKey: process.env.API_KEY,
 }
 
 export default config;
