@@ -45,7 +45,9 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-#       - run: npm run build
+      - run: npm run build
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
