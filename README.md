@@ -1,8 +1,16 @@
+# Server-Side Rendering w/ CRA
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install the packages necessary to start the application.
+<br />
+See the section about [npm install][2] for more information.
 
 ### `npm start`
 
@@ -27,15 +35,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `npm run dev`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Runs the server-side rendering version of the application in `development` environment.
 
 ## Learn More
 
@@ -66,3 +68,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Server-Side Rendering
+
+Few ways learning how to do Server-side rendering with pure React without ejecting.
+
+- A very simplistic example of what it takes to [Server-Side render a React app][3].
+
+- [Reactjs SSR Tips and Tricks][4] on Medium.com
+
+- ilker ALTIN - [React SSR News api][5] repo
+
+[2]: https://docs.npmjs.com/cli-commands/install.html
+[3]: https://flaviocopes.com/react-server-side-rendering/
+[4]: https://medium.com/@atahani/reactjs-ssr-tips-and-tricks-be9edff5b7bb
+[5]: https://github.com/ilkeraltin/react-ssr-news
